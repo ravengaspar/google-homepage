@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;    
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100vh;
+}
+
+.nav-header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: auto;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    object-fit: contain;
+    object-position: center bottom;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+.about, .store, .gmail, .images, .apps, .sign-in {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.sign-in {
+
+    color: white;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sign-in:hover{
+        box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+
+.nav-footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-header .store{
+    margin-right: auto;
+}
+
+
+.hero{
+    align-self: center;
+    box-sizing: border-box;   
+    flex-grow: 1;
+}
+
+.logo{
+    object-fit: cover;
+    align-items: center;
+}
+
+.logo img{
+    margin:auto;
+    display: flex;
+    min-height: 92px;
+    max-height: 230px;
+    margin-top: 260px;
+    height: calc(100% - 560px);
+}
+
+.search {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.input{
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    right: 20px;
+    border-width: thin;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: silver;
+    width: 48vw;
+    margin: 0 auto;
+    height: 42px;
+    flex: 100%;
+    padding-top: 6px;
+}
+
+i {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    bottom: 2px;
+    left: 20px;
+    z-index: 999;
+}
+ 
+.btns{
+    display: flex;
+    justify-content: center;   
+}
+
+.btns > button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.btns button:hover{
+    box-shadow: 0 1px 2px 0 rgba(229, 231, 235, 0.3),0 1px 3px 1px rgba(209, 210, 212, 0.15);
+}
+
+.translate{
+    text-align: center;
+    align-self: center;
+}
+
+.translate a {
+    color: blue;
+}
+
+.nav-footer{
+    padding: 15px 30px;
+}
+
+.nav-footer li, .nav-header li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.gmail{
+    margin-left: auto;
+}
+
+.nav-footer .how{
+    margin-right: auto;
+}
+
+footer{
+    padding: 0 20px;
+    background: #f2f2f2;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: rgba(0,0,0,.54);
+}
+
+.canada{
+    padding: 0px 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
